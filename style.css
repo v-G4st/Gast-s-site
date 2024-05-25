@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(32, 4, 57);
+    background-image: url("img/smoke-lilac-colored-smoke.jpg");
+    background-attachment: fixed;
+    margin:50px;
+}
+
+header{
+    background-color:#3F1A546E;
+    border-radius: 25px;
+    height:400px;
+    width:680px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto;
+}
+
+.info-text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#signature{
+    margin:auto;
+    margin-top: 10px;
+}
+
+#text1{
+    margin-top:-175px;
+    font-size: 16px;
+}
+
+#links{
+    margin-top: -40px;
+    text-align: center;
+}
+
+.info-image{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 5%;
+}
+
+#autoportrait{
+    border-radius:20px ;
+    align-items: center;
+}
+
+p,h1,h2,h3,ul{
+    color:#EDDDC0;
+    text-align: center;
+    font-family:'DM Sans', sans-serif;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.link:focus,p:focus,h1:focus,h2:focus,h3:focus,ul:focus{
+    background-color: #40135ba0;
+    color: #FFFFFF;
+}
+
+ul{
+    margin-right: 145px;
+}
+
+hr{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+button{
+    border: 2px solid #EDDDC0;
+    border-bottom: 4px solid #EDDDC0 ;
+    border-radius: 3px;
+    background: none;
+    color:#EDDDC0;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+button:hover{
+    text-decoration:underline;
+    text-decoration-color: #EDDDC0;
+}
+button:active{
+    text-decoration: none;
+}
+
+.link{
+    color:#EDDDC0;
+    text-decoration: underline;
+    text-decoration-color: #EDDDC0;
+    text-align: center;
+}
+.link:hover{
+    color:#EDDDC0;
+    text-decoration: none;
+}
+.link:active{
+    color:#FFFFFF;
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+}
+
+mark,.titre{
+    background-color: rgba(225, 207, 173, 0.225);
+    color:#EDDDC0;
+}
+
+.titre{
+    text-decoration: underline;
+    text-decoration-color: #EDDDC0;
+    font-family: "Jacquard 12", system-ui;
+    font-size: 2em;
+    background-size: 40%;
+}
+
+.list{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.asterisk{
+    font-size:45px;
+    font-family:'DM Sans', sans-serif;
+    color:#EDDDC0;
+    padding:2px;
+    margin:2px;
+}
+
+p,ul{
+    font-size: 17.5px;
+}
